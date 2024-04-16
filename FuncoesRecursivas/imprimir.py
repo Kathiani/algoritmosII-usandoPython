@@ -5,5 +5,5 @@ def imprimeLista(lista):
         imprimeLista(lista[:-1])
 
 
-#chamando função
+#exemplo de chamada da função
 imprimeLista([9,8,7,6,5,4,3])
