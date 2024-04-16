@@ -9,7 +9,7 @@ def bublesort(lista):
                 if lista[j] > lista[j+1]:
                     lista[j], lista[j+1] = lista[j+1], lista[j]
 
-# Chamada da função
+#Chamando a função
 lista = [12, 34, 98, 5, 1, 4]
 bublesort(lista)
 print("Lista ordenada:", lista)
