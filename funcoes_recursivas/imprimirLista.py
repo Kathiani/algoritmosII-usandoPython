@@ -17,7 +17,7 @@ def imprime_soma_lista(lista):
         print(lista[0] + lista[-1])
         print("saindo da função soma primeiro e último!...")
 
-#exemplo de chamada da função
+#chamadas as diferentes funções
 lista = [9,8,0,30,10,4,3,5]
 imprime_lista(lista)
 imprime_soma_lista(lista)
