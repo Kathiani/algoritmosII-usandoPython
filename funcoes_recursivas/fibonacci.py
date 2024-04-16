@@ -15,9 +15,10 @@ def fibonacci2(n):
 
 
 
-#chamada da função
+#primeir versão
 fibonacciv1([1, 2], 10)  #fibonacci apenas imprimindo valores na sequência a partir da sequência fornecida
 
+#segunda versão
 seq = 10
 print("Segunda função fibonacci até o", seq, "-ésimo termo:")
 for i in range(seq):
