@@ -19,7 +19,7 @@ def fibonacci2(n):
 fibonacciv1([1, 2], 10)  #fibonacci apenas imprimindo valores na sequência a partir da sequência fornecida
 
 #segunda versão
-seq = 10
+seq = 10        #os dez primeiros números
 print("Segunda função fibonacci até o", seq, "-ésimo termo:")
 for i in range(seq):
     print(fibonacci2(i), end=" ")
