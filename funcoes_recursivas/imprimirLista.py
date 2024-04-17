@@ -4,7 +4,7 @@ def imprime_lista(lista):
     if len(lista)!= 0:
         imprime_lista(lista[:-1])
     else:
-        print("saindo da função imprime!...\n")
+        print("saindo da primeira função imprime!...\n")
 
 def imprime_soma_lista(lista):
     tam = len(lista)
@@ -15,9 +15,17 @@ def imprime_soma_lista(lista):
         imprime_soma_lista(lista[1:-1])
     else:
         print(lista[0] + lista[-1])
-        print("saindo da função soma primeiro e último!...")
+        print("saindo da segunda função soma primeiro e último!...")
 
-#chamadas para as diferentes funções
+
+def imprime_rec(l, i=0):
+    if i < len(l):
+        print(l[i])
+        imprime_rec(l, i+1)
+
+#chamadas
 lista = [9,8,0,30,10,4,3,5]
 imprime_lista(lista)
 imprime_soma_lista(lista)
+print("Iniciando terceira função imprime lista...")
+imprime_rec(lista)  #mostrar árvore de chamadas
