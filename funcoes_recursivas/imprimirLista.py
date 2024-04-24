@@ -22,10 +22,10 @@ def imprime_rec(l, i=0):
     if i < len(l):
         print(l[i])
         imprime_rec(l, i+1)
+    print("saindo da terceira função imprime lista!...")
 
 #chamadas
 lista = [9,8,0,30,10,4,3,5]
 imprime_lista(lista)
 imprime_soma_lista(lista)
-print("Iniciando terceira função imprime lista...")
-imprime_rec(lista)  #mostrar árvore de chamadas
+imprime_rec(lista)  #mostrar ordem de chamadas

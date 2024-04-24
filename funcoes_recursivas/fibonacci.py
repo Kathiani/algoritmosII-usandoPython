@@ -5,7 +5,7 @@ def fibonacciv1(lista, n):
         n = n - 1
         fibonacciv1(lista, n)
    else:
-        print("fim da execução da primeira função . . . \n ")
+        print("Fim da execução da primeira função . . . \n ")
 
 
 def fibonacci2(n):
@@ -16,12 +16,12 @@ def fibonacci2(n):
 
 
 
-#primeir versão
+#primeira versão
 fibonacciv1([1, 2], 10)  #fibonacci apenas imprimindo valores na sequência a partir da sequência fornecida
 
 #segunda versão
-seq = 6     #os dez primeiros números
+seq = 5     #os n primeiros números (f2)
 print("Segunda função fibonacci até o", seq, "-ésimo termo:")
 for i in range(seq):
     print(fibonacci2(i), end=" ")
-    #fibonacci2(i)
+    fibonacci2(i)
